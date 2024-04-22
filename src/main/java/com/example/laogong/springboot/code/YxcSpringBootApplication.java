@@ -27,7 +27,7 @@ public class YxcSpringBootApplication {
     }
 
     private static void startTomcat(AnnotationConfigWebApplicationContext applicationContext) {
-        // 配置tomcat
+        // 配置tomcat 1
         Tomcat tomcat = new Tomcat();
 
         Server server = tomcat.getServer();
