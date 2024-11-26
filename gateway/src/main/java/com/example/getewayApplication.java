@@ -1,12 +1,11 @@
-package com.example.laogong.springboot.code;
+package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MyApplication {
-
+public class getewayApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MyApplication.class);
+        SpringApplication.run(getewayApplication.class, args);
     }
 }
